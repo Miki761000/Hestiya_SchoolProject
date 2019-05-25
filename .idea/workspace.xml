@@ -2,51 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e2f2a54-aad7-4931-81d8-728f1900c532" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/css/gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/gallery.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_assets/css/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_assets/css/products.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmetics/body/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetics/body/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmetics/face/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetics/face/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmetics/other/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/cosmetics/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contacts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/contacts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cosmetics/body/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cosmetics/face/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cosmetics/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cosmetics/other/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cosmetics/sun/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/navigation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/products.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/typography.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dostavki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dostavki/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/herb/addition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/herb/addition/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/herb/aroma/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/herb/aroma/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/herb/herb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/herb/herb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/herb/loos/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/herb/tincture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/herb/tincture/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/medicines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/medicines/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/production/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/production/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/promotions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/subscribe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/subscribe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herb/addition/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/herb/addition/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herb/aroma/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/herb/aroma/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herb/herb/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/herb/herb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herb/loos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/herb/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herb/tincture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/herb/tincture/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicines.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicines.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/promotions.html" beforeDir="false" afterPath="$PROJECT_DIR$/promotions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product_13595.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/product_13595.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product_14860.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/product_14860.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product_1685.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/product_1685.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product_26778.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/product_26778.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/product_9094.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/product_9094.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -233,19 +193,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1558267261637</updated>
-      <workItem from="1558267263162" duration="52172000" />
+      <workItem from="1558267263162" duration="52777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52172000" />
+    <option name="totallyTimeSpent" value="52777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="641" y="0" width="915" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22665147" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22665147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -630,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
