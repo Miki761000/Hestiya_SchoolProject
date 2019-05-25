@@ -31,8 +31,6 @@ menu:
         name: Ароматерапия
       - url: /herb/herb/index.html
         name: Билкови смеси
-      - url: /herb/loos/index.html
-        name: Насипни билки
       - url: /herb/tincture/index.html
         name: Тинктури
       - url: /herb/addition/index.html
@@ -44,10 +42,6 @@ menu:
         name: Козметика за лице
       - url: /cosmetic/body/index.html
         name: Козметика за тяло
-      - url: /cosmetic/sun/index.html
-        name: Слънцезащитна козметика
-      - url: /cosmetic/other/index.html
-        name: Специфична грижа
 
 
 

@@ -29,12 +29,23 @@
   flex-direction: row;
   justify-content: space-around; }
 
+.products-main > li,
+.products > li {
+  margin: 0.5em 0 0.5em 1em; }
+
+.location-image-products > p {
+  margin: 0.5em 0 0.5em 2.5em; }
+
 .description > h4,
 .location-image-main > h4 {
   margin-top: 1rem; }
 
 .discount {
   color: #F00;
+  font-size: 2em; }
+
+.normal {
+  color: var(--color-main-text);
   font-size: 2em; }
 
 .standard {
