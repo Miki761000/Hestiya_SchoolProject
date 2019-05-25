@@ -1,8 +1,8 @@
 title: Hestiya
 email: your-email@example.com
 description:
-#baseurl: "/Front-End-CSS-Advanced"
-baseurl: ""
+baseurl: "/Hestiya_SchoolProject"
+#baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: #jekyllrb
 github_username:  #jekyll
