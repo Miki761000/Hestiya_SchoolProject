@@ -1,0 +1,27 @@
+<nav class="nav">
+    <ul>
+        {% for item in site.menu %}
+        {% if item.url != '/feed.xml'%}
+        <li class="{% if page.url == {{ item.url }} %} active {% endif %}">
+
+            <a href="{{ site.baseurl }}{{ item.url }}">{{ item.name }}</a>
+
+            {% if item.submenu %}
+            <ul class="submenu">
+                {% for subitem in item.submenu %}
+                <li>
+                    <a href="{{ site.baseurl }}{{ subitem.url }}">{{ subitem.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </li>
+
+        {% endif %}
+        {% endfor %}
+
+    </ul>
+</nav>
+
+
+

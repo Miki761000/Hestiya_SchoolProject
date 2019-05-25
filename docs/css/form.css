@@ -1,0 +1,161 @@
+.page-box {
+  background: var(--color-main-bgrd-special);
+  width: 40%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.form {
+  width: 100%;
+  background: var(--color-main-bgrd-special);
+  margin-left: -2rem; }
+
+.container {
+  width: 95%; }
+
+.container section p {
+  padding: 0 0 0 0.3rem; }
+
+h2, h4 {
+  text-align: center; }
+
+input, .textarea {
+  background: #FFF;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 0.4rem;
+  font-weight: bold; }
+
+input, textarea {
+  padding: 0.5rem 0.5rem 0.5rem 4rem;
+  margin-bottom: 0.5rem; }
+
+.form p {
+  position: relative; }
+
+body > main > div.page-box > div > section > form > p.title {
+  margin-left: 2em; }
+
+form {
+  margin-left: -2.5rem; }
+
+.form i {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  z-index: 200;
+  align-items: center;
+  border-right: 1px solid #5C5757;
+  color: #5C5757; }
+
+.form i:before {
+  padding: 0 1rem; }
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+  color: #F00; }
+
+input[type=text],
+input[type=email],
+textarea {
+  color: var(--color-nav-bgrd); }
+
+input[type="button"] {
+  background: var(--color-nav-bgrd);
+  color: var(--color-main-bgrd);
+  padding: 0.8rem 0;
+  cursor: pointer;
+  width: 30%;
+  display: block;
+  margin: 0 auto; }
+
+input[type="button"] {
+  margin-top: 1rem;
+  margin-bottom: 2rem; }
+
+input[type="button"]:hover {
+  background: var(--color-main-bgrd-special); }
+
+input:focus + i {
+  color: var(--color-nav-bgrd); }
+
+.form p:focus-within:before {
+  color: var(--color-main-link); }
+
+.star {
+  color: #F00;
+  display: inline-block; }
+
+.min-char {
+  font-size: 0.6em;
+  color: var(--color-main-bgrd-special); }
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px; }
+
+ul {
+  display: inline; }
+
+ul li {
+  list-style-type: none;
+  color: #000; }
+
+.buttonMargined {
+  margin-left: 140px; }
+
+p.info {
+  display: block;
+  margin: 1rem 0.5rem 0.5rem 2.5rem; }
+
+iframe {
+  display: flex;
+  /*width: 60%;*/
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto; }
+
+@media screen and (max-width: 900px) {
+  input, .textarea {
+    width: 75%; }
+  input[type="button"] {
+    width: 20%;
+    margin-left: 17%; }
+  h2 {
+    font-size: 1.1em; }
+  .page-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+  .container {
+    width: 100%; }
+  form {
+    width: 100%;
+    display: block;
+    padding-left: 7%;
+    margin-left: -3.5rem; }
+  .form p {
+    width: 100%; }
+  .block {
+    width: 100%;
+    margin-top: 0;
+    padding-left: 10%; }
+  iframe {
+    width: 100%;
+    height: auto;
+    margin-left: 0; } }
+
+p.email > #emailSubscribe {
+  border: 1px solid var(--color-main-text); }
+
+p.email > #emailSubscribe {
+  width: 15%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
+
+p.email > #emailSubscribe > i {
+  margin-left: 0.5rem; }

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="top-first">
+            <ul class="top-menu-left">
+                <li class="delivery">
+                    <a href="/dostavki/index.html"><img src="/img/delivery.svg" alt="delivery"></a>
+                    <a href="/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="top-menu-right">
+                <li><a href="/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="/subscribe/index.html"><img src="/img/email.svg" alt="email"></a>
+                    <a href="/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-logo">
+            <div class="logo">
+                <h2><a href="/">Хестия ООД</a></h2>
+            </div>
+        </div>
+        <div class="nav" data-animate-effect="fadeInUp">
+            <nav class="nav">
+    <ul>
+        
+        
+        <li class="">
+
+            <a href="/">Home</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/promotions">Промоции</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/production">Нашите продукти</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/medicines">Лекарства</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/herb">Билкова аптека</a>
+
+            
+            <ul class="submenu">
+                
+                <li>
+                    <a href="/herb/aroma/index.html">Ароматерапия</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/herb/index.html">Билкови смеси</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/loos/index.html">Насипни билки</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/tincture/index.html">Тинктури</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/addition/index.html">Хранителни добавки</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/cosmetic">Козметика</a>
+
+            
+            <ul class="submenu">
+                
+                <li>
+                    <a href="/cosmetic/face/index.html">Козметика за лице</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/body/index.html">Козметика за тяло</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/sun/index.html">Слънцезащитна козметика</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/other/index.html">Специфична грижа</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+
+        
+        
+
+    </ul>
+</nav>
+
+
+
+
+        </div>
+    </div>
+</header>
+<main class="site-content">
+    <div class="site-social-div">
+        <div id="social"><a class="facebookBtn" href="https://www.facebook.com/" ></a>
+            <a class="twitterBtn" href="https://twitter.com/" ></a>
+            <a class="googleplusBtn" href="https://plus.google.com/" ></a>
+            <a class="linkedinBtn" href="https://www.linkedin.com/" ></a>
+            <a class="pinterestBtn" href="https://www.pinterest.com/" ></a>
+        </div>
+    </div>
+    <section>
+    <div class="main">
+        <p>Абонирайте се за месечния ни бюлетин, за да получавате актуални промоции от Хестия ООД по email.</p>
+
+        <h6>Email адрес</h6>
+        <p class="email">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="emailSubscribe" placeholder="ааа@email.com"/>
+        </p>
+        <h6>Специални разрешения съгласно GDPR</h6>
+        <p>Нашата аптека ще използва информацията, която предоставяте чрез този формуляр, за да Ви изпраща актуална информация и месечни промоции. Чрез избиране на бутона по-долу декларирате, че давате изрично съгласието си за обработване и трансфер (до администратори на лични дании) на личния си email с цел получаване на актуални промоции и желаете да бъдете уведомявани.</p>
+
+        <input type="button" id="button" onclick="addItem()" value="Send" ></input>
+
+        <div>
+            <p class="info" id="info"></p>
+        </div>
+    </div>
+</section>
+
+<script>
+    function addItem(){
+        console.log("test");
+        let info = document.getElementById('info');
+        let btn = document.getElementById('button');
+        btn.on('click', onClick());
+
+        function onClick(){
+            info.textContent = 'Заявката беше изпратена успешно!';
+
+            document.getElementById('text').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('comment').value = '';
+        }
+    }
+</script>
+
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <ul class="footer-menu-left">
+                <li class="delivery">
+                    <a href="/dostavki/index.html"><img src="/img/delivery.svg" alt="delivery"></a>
+                    <a href="/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="footer-menu-right">
+                <li><a href="/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="/subscribe/index.html"><img src="/img/email.svg" alt="email"></a>
+                    <a href="/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

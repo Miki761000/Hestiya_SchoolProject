@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="top-first">
+            <ul class="top-menu-left">
+                <li class="delivery">
+                    <a href="/dostavki/index.html"><img src="/img/delivery.svg" alt="delivery"></a>
+                    <a href="/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="top-menu-right">
+                <li><a href="/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="/subscribe/index.html"><img src="/img/email.svg" alt="email"></a>
+                    <a href="/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-logo">
+            <div class="logo">
+                <h2><a href="/">Хестия ООД</a></h2>
+            </div>
+        </div>
+        <div class="nav" data-animate-effect="fadeInUp">
+            <nav class="nav">
+    <ul>
+        
+        
+        <li class="">
+
+            <a href="/">Home</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/promotions">Промоции</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/production">Нашите продукти</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/medicines">Лекарства</a>
+
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/herb">Билкова аптека</a>
+
+            
+            <ul class="submenu">
+                
+                <li>
+                    <a href="/herb/aroma/index.html">Ароматерапия</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/herb/index.html">Билкови смеси</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/loos/index.html">Насипни билки</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/tincture/index.html">Тинктури</a>
+                </li>
+                
+                <li>
+                    <a href="/herb/addition/index.html">Хранителни добавки</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+
+        
+        
+        
+        <li class="">
+
+            <a href="/cosmetic">Козметика</a>
+
+            
+            <ul class="submenu">
+                
+                <li>
+                    <a href="/cosmetic/face/index.html">Козметика за лице</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/body/index.html">Козметика за тяло</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/sun/index.html">Слънцезащитна козметика</a>
+                </li>
+                
+                <li>
+                    <a href="/cosmetic/other/index.html">Специфична грижа</a>
+                </li>
+                
+            </ul>
+            
+        </li>
+
+        
+        
+
+    </ul>
+</nav>
+
+
+
+
+        </div>
+    </div>
+</header>
+<main class="site-content">
+    <div class="site-social-div">
+        <div id="social"><a class="facebookBtn" href="https://www.facebook.com/" ></a>
+            <a class="twitterBtn" href="https://twitter.com/" ></a>
+            <a class="googleplusBtn" href="https://plus.google.com/" ></a>
+            <a class="linkedinBtn" href="https://www.linkedin.com/" ></a>
+            <a class="pinterestBtn" href="https://www.pinterest.com/" ></a>
+        </div>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932.595459856137!2d23.30932471546678!3d42.69111087916602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa8515ab11d2b5%3A0x4fca69cd15b5932b!2sbul.+%22General+Mihail+D.+Skobelev%22+69%2C+1606+Sofia+Center%2C+Sofia!5e0!3m2!1sen!2sbg!4v1558288900685!5m2!1sen!2sbg"  width="600" height="450" frameborder="0" allowfullscreen></iframe>
+
+<div class="page-box">
+    <div class="container">
+        <h2>За връзка с нас:</h2>
+        <section class="form">
+            <form action="">
+                <p class="title">
+                    <input type="text" id ="text" placeholder="Име" />
+                    <i class="fas fa-user"></i>
+                </p>
+                <p class="email">
+                    <input type="email" id="email" placeholder="ааа@email.com"/>
+                    <i class="fas fa-envelope"></i>
+                </p>
+                <p class="comment">
+                    <textarea class="textarea" placeholder="Напишете Вашeто съобщение тук" id="comment"></textarea>
+                    <i class="fas fa-envelope-open-text"></i>
+                </p>
+                <input type="button" id="button" onclick="addItem()" value="Send" ></input>
+
+                <div>
+                    <p class="info" id="info"></p>
+                </div>
+            </form>
+        </section>
+    </div>
+</div>
+
+<script>
+    function addItem(){
+        console.log("test");
+        let info = document.getElementById('info');
+        let btn = document.getElementById('button');
+        btn.on('click', onClick());
+
+        function onClick(){
+            info.textContent = 'Съобщението беше изпратено успешно!';
+
+            document.getElementById('text').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('comment').value = '';
+        }
+    }
+</script>
+
+
+
+
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <ul class="footer-menu-left">
+                <li class="delivery">
+                    <a href="/dostavki/index.html"><img src="/img/delivery.svg" alt="delivery"></a>
+                    <a href="/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="footer-menu-right">
+                <li><a href="/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="/subscribe/index.html"><img src="/img/email.svg" alt="email"></a>
+                    <a href="/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>

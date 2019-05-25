@@ -1,0 +1,42 @@
+---
+layout: page
+title: Subscribe
+permalink: /subscribe/
+---
+
+<section>
+    <div class="main">
+        <p>Абонирайте се за месечния ни бюлетин, за да получавате актуални промоции от Хестия ООД по email.</p>
+
+        <h6>Email адрес</h6>
+        <p class="email">
+            <i class="fas fa-envelope"></i>
+            <input type="email" id="emailSubscribe" placeholder="ааа@email.com"/>
+        </p>
+        <h6>Специални разрешения съгласно GDPR</h6>
+        <p>Нашата аптека ще използва информацията, която предоставяте чрез този формуляр, за да Ви изпраща актуална информация и месечни промоции. Чрез избиране на бутона по-долу декларирате, че давате изрично съгласието си за обработване и трансфер (до администратори на лични дании) на личния си email с цел получаване на актуални промоции и желаете да бъдете уведомявани.</p>
+
+        <input type="button" id="button" onclick="addItem()" value="Send" ></input>
+
+        <div>
+            <p class="info" id="info"></p>
+        </div>
+    </div>
+</section>
+
+<script>
+    function addItem(){
+        console.log("test");
+        let info = document.getElementById('info');
+        let btn = document.getElementById('button');
+        btn.on('click', onClick());
+
+        function onClick(){
+            info.textContent = 'Заявката беше изпратена успешно!';
+
+            document.getElementById('text').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('comment').value = '';
+        }
+    }
+</script>

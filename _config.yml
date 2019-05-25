@@ -1,0 +1,64 @@
+title: Hestiya
+email: your-email@example.com
+description:
+#baseurl: "/Front-End-CSS-Advanced"
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: #jekyllrb
+github_username:  #jekyll
+destination: docs
+
+exclude: [_assets, node_modules, Gemfile, Gemfile.lock, gulpfile.js, package.json, package-lock.json, README.md]
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+menu:
+  - url: /
+    name: Home
+  - url: /promotions
+    name: Промоции
+  - url: /production
+    name: Нашите продукти
+  - url: /medicines
+    name: Лекарства
+  - url: /herb
+    name: Билкова аптека
+    submenu:
+      - url: /herb/aroma/index.html
+        name: Ароматерапия
+      - url: /herb/herb/index.html
+        name: Билкови смеси
+      - url: /herb/loos/index.html
+        name: Насипни билки
+      - url: /herb/tincture/index.html
+        name: Тинктури
+      - url: /herb/addition/index.html
+        name: Хранителни добавки
+  - url: /cosmetic
+    name: Козметика
+    submenu:
+      - url: /cosmetic/face/index.html
+        name: Козметика за лице
+      - url: /cosmetic/body/index.html
+        name: Козметика за тяло
+      - url: /cosmetic/sun/index.html
+        name: Слънцезащитна козметика
+      - url: /cosmetic/other/index.html
+        name: Специфична грижа
+
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="top-first">
+            <ul class="top-menu-left">
+                <li class="delivery">
+                    <a href="{{ site.baseurl }}/dostavki/index.html"><img src="{{ site.baseurl }}/img/delivery.svg" alt="delivery"></a>
+                    <a href="{{ site.baseurl }}/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="top-menu-right">
+                <li><a href="{{ site.baseurl }}/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="{{ site.baseurl }}/subscribe/index.html"><img src="{{ site.baseurl }}/img/email.svg" alt="email"></a>
+                    <a href="{{ site.baseurl }}/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-logo">
+            <div class="logo">
+                <h2><a href="/">Хестия ООД</a></h2>
+            </div>
+        </div>
+        <div class="nav" data-animate-effect="fadeInUp">
+            {% include navigation.html location="header" %}
+        </div>
+    </div>
+</header>
+<main class="site-content">
+    <div class="site-social-div">
+        <div id="social"><a class="facebookBtn" href="https://www.facebook.com/" ></a>
+            <a class="twitterBtn" href="https://twitter.com/" ></a>
+            <a class="googleplusBtn" href="https://plus.google.com/" ></a>
+            <a class="linkedinBtn" href="https://www.linkedin.com/" ></a>
+            <a class="pinterestBtn" href="https://www.pinterest.com/" ></a>
+        </div>
+    </div>
+    {{ content }}
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <ul class="footer-menu-left">
+                <li class="delivery">
+                    <a href="{{ site.baseurl }}/dostavki/index.html"><img src="{{ site.baseurl }}/img/delivery.svg" alt="delivery"></a>
+                    <a href="{{ site.baseurl }}/dostavki/index.html">Доставка*</a>
+                </li>
+            </ul>
+            <ul class="footer-menu-right">
+                <li><a href="{{ site.baseurl }}/contacts/index.html">Контакти</a></li>
+                <li>
+                    <a href="{{ site.baseurl }}/subscribe/index.html"><img src="{{ site.baseurl }}/img/email.svg" alt="email"></a>
+                    <a href="{{ site.baseurl }}/subscribe/index.html">Абонирай се</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
