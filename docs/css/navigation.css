@@ -57,3 +57,14 @@ header nav a:focus:active,
 header nav a:hover:active {
   background: yellow;
   color: #000; }
+
+@media screen and (max-width: 800px) {
+  width: auto;
+  header {
+    display: block; }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-main-bgrd-special);
+    margin: 0.5em; } }

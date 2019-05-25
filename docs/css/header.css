@@ -119,3 +119,12 @@ header p img {
   width: 22px;
   height: 22px;
   margin: 0 0.2rem; }
+
+@media screen and (max-width: 800px) {
+  .header .top-first .top-menu-right,
+  .footer .footer-first .footer-menu-right {
+    width: 70%; }
+  .header .top-first .top-menu-left,
+  .footer .footer-first .footer-menu-left {
+    width: 20%;
+    margin-left: 0.5rem; } }

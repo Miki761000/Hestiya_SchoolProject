@@ -104,4 +104,6 @@
     margin-right: 1em; }
   .products-main > .discount {
     color: #F00;
-    font-size: 2em; } }
+    font-size: 2em; }
+  ul > li > ul > li {
+    display: none; } }

@@ -309,6 +309,15 @@ header p img {
   height: 22px;
   margin: 0 0.2rem; }
 
+@media screen and (max-width: 800px) {
+  .header .top-first .top-menu-right,
+  .footer .footer-first .footer-menu-right {
+    width: 70%; }
+  .header .top-first .top-menu-left,
+  .footer .footer-first .footer-menu-left {
+    width: 20%;
+    margin-left: 0.5rem; } }
+
 .top-menu nav {
   margin-right: 0.5em; }
 
@@ -368,6 +377,17 @@ header nav a:focus:active,
 header nav a:hover:active {
   background: yellow;
   color: #000; }
+
+@media screen and (max-width: 800px) {
+  width: auto;
+  header {
+    display: block; }
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: var(--color-main-bgrd-special);
+    margin: 0.5em; } }
 
 :root {
   --color-main-bgrd: #FFF;
@@ -487,21 +507,25 @@ section:nth-child(2) {
 .gallery-recommended img {
   margin-top: 2rem; }
 
-/*
-.gallery-recommended,
-.gallery,
-.gallery-new {
-    !*position: relative;*!
-    !*transition-duration: 0.5s;*!
-    !*transform: translate(0, -1em);*!
-    transition: transform 0.5s;
-}
+@media screen and (max-width: 900px) {
+  section:nth-child(1),
+  section:nth-child(2),
+  section:nth-child(2) {
+    width: 100%;
+    margin: 0 auto; }
+  .gallery,
+  .gallery-products,
+  .gallery-new,
+  .gallery-recommended {
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    grid-gap: 1em;
+    padding-left: 1.5rem;
+    align-content: center;
+    margin: 0.5rem 0.5rem 1rem 0.5rem; }
+  ul, li {
+    font-size: 10px; } }
 
-.gallery-recommended:hover,
-.gallery:hover,
-.gallery-new:hover {
-    transform: scale(2);
-}*/
 .page-box {
   background: var(--color-main-bgrd-special);
   width: 40%;
@@ -624,11 +648,19 @@ iframe {
   align-items: center;
   margin: 0 auto; }
 
+p.email > #emailSubscribe {
+  border: 1px solid var(--color-main-text);
+  width: 15%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
+
+p.email > #emailSubscribe > i {
+  margin-left: 0.5rem; }
+
 @media screen and (max-width: 900px) {
   input, .textarea {
-    width: 75%; }
+    width: 100%; }
   input[type="button"] {
-    width: 20%;
+    width: 40%;
     margin-left: 17%; }
   h2 {
     font-size: 1.1em; }
@@ -652,17 +684,14 @@ iframe {
   iframe {
     width: 100%;
     height: auto;
-    margin-left: 0; } }
-
-p.email > #emailSubscribe {
-  border: 1px solid var(--color-main-text); }
-
-p.email > #emailSubscribe {
-  width: 15%;
-  padding: 0.5rem 0.5rem 0.5rem 0.5rem; }
-
-p.email > #emailSubscribe > i {
-  margin-left: 0.5rem; }
+    margin-left: 0; }
+  p.email > #emailSubscribe {
+    width: 65%; }
+  input[type="button"] {
+    width: 50%;
+    display: block;
+    margin-top: 1.5em;
+    margin: 0 auto; } }
 
 .gallery-main {
   display: grid;
@@ -770,4 +799,6 @@ p.email > #emailSubscribe > i {
     margin-right: 1em; }
   .products-main > .discount {
     color: #F00;
-    font-size: 2em; } }
+    font-size: 2em; }
+  ul > li > ul > li {
+    display: none; } }

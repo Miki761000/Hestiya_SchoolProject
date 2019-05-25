@@ -132,4 +132,8 @@
     color: #F00;
     font-size: 2em;
   }
+
+  ul > li > ul > li {
+    display: none;
+  }
 }
