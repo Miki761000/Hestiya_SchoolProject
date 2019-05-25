@@ -255,7 +255,7 @@ a {
 
 .header .top-first .top-menu-right,
 .footer .footer-first .footer-menu-right {
-  width: 30%;
+  width: 60%;
   padding-right: 3%;
   display: flex;
   flex-direction: row;
@@ -282,10 +282,10 @@ body > footer > div > div > ul > li {
   flex-direction: row;
   padding-right: 0.5em; }
 
-body > header > div > div > ul > li > a,
-body > footer > div > div > ul > li > a {
-  padding-left: 0.3em; }
-
+/*body>header>div>div>ul>li>a,
+body>footer>div>div>ul>li>a {
+  padding-left: 0.3em;
+}*/
 header h2 {
   padding: 0.7rem;
   display: flex;
@@ -309,14 +309,24 @@ header p img {
   height: 22px;
   margin: 0 0.2rem; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .header .top-first .top-menu-right,
   .footer .footer-first .footer-menu-right {
-    width: 70%; }
+    width: 85%;
+    margin-left: -2.8em;
+    font-size: 8px;
+    justify-content: space-around; }
   .header .top-first .top-menu-left,
   .footer .footer-first .footer-menu-left {
-    width: 20%;
-    margin-left: 0.5rem; } }
+    margin-left: -2.5em;
+    font-size: 8px; } }
+
+@media screen and (max-width: 900px) {
+  body > header > div > div.top-first > ul.top-menu-left > li > a:nth-child(1),
+  body > header > div > div.top-first > ul.top-menu-right > li:nth-child(2) > a:nth-child(1),
+  body > footer > div > div > ul.footer-menu-left > li > a:nth-child(1) > img,
+  body > footer > div > div > ul.footer-menu-right > li > a:nth-child(1) > img {
+    display: none; } }
 
 .top-menu nav {
   margin-right: 0.5em; }
@@ -802,3 +812,18 @@ p.email > #emailSubscribe > i {
     font-size: 2em; }
   ul > li > ul > li {
     display: none; } }
+
+.info, li, .last {
+  font-weight: initial;
+  margin: 0 0 0.5em 2em;
+  line-height: 2em;
+  font: 16px/1.5 'PT Sans Narrow', sans-serif; }
+
+.info_upr {
+  margin-top: 2em; }
+
+.cel {
+  margin: 2em 0; }
+
+.last {
+  margin: 0 0 4.5em 2em; }

@@ -66,7 +66,7 @@ a {
 
 .header .top-first .top-menu-right,
 .footer .footer-first .footer-menu-right {
-  width: 30%;
+  width: 60%;
   padding-right: 3%;
   display: flex;
   flex-direction: row;
@@ -93,10 +93,10 @@ body > footer > div > div > ul > li {
   flex-direction: row;
   padding-right: 0.5em; }
 
-body > header > div > div > ul > li > a,
-body > footer > div > div > ul > li > a {
-  padding-left: 0.3em; }
-
+/*body>header>div>div>ul>li>a,
+body>footer>div>div>ul>li>a {
+  padding-left: 0.3em;
+}*/
 header h2 {
   padding: 0.7rem;
   display: flex;
@@ -120,11 +120,21 @@ header p img {
   height: 22px;
   margin: 0 0.2rem; }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .header .top-first .top-menu-right,
   .footer .footer-first .footer-menu-right {
-    width: 70%; }
+    width: 85%;
+    margin-left: -2.8em;
+    font-size: 8px;
+    justify-content: space-around; }
   .header .top-first .top-menu-left,
   .footer .footer-first .footer-menu-left {
-    width: 20%;
-    margin-left: 0.5rem; } }
+    margin-left: -2.5em;
+    font-size: 8px; } }
+
+@media screen and (max-width: 900px) {
+  body > header > div > div.top-first > ul.top-menu-left > li > a:nth-child(1),
+  body > header > div > div.top-first > ul.top-menu-right > li:nth-child(2) > a:nth-child(1),
+  body > footer > div > div > ul.footer-menu-left > li > a:nth-child(1) > img,
+  body > footer > div > div > ul.footer-menu-right > li > a:nth-child(1) > img {
+    display: none; } }
