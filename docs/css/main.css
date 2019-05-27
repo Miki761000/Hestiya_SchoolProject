@@ -1,0 +1,127 @@
+body {
+  background: var(--color-main-bgrd); }
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  color: var(--color-main-text);
+  text-align: center;
+  margin-top: 0.5em; }
+
+h1 {
+  margin-top: 2.5rem; }
+
+.logo h2 {
+  text-align: left; }
+
+p {
+  line-height: 2em;
+  margin-left: 2em;
+  /*color: var(--color-main-text);*/ }
+
+p span {
+  color: red; }
+
+p:nth-child(1) {
+  margin: 1rem 0 0 2rem; }
+
+h6 {
+  margin: 2rem 2rem;
+  font-weight: bold;
+  color: var(--color-main-text); }
+
+.gallery.btn {
+  margin: 1rem 0;
+  color: white;
+  background: var(--color-main-text);
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-main-text);
+  font-weight: bold;
+  overflow: visible; }
+
+#social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+  height: 24px; }
+
+.site-social-div {
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 5rem 0; }
+
+/* facebook  */
+.facebookBtn {
+  color: #4060A5;
+  background: #fff; }
+
+.facebookBtn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f09a";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle; }
+
+.facebookBtn:hover {
+  background: #4060A5;
+  color: #fff;
+  height: auto; }
+
+/* twitter  */
+.twitterBtn {
+  width: 25px;
+  height: 25px;
+  color: #00ABE3;
+  background: #fff; }
+
+.twitterBtn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099"; }
+
+.twitterBtn:hover {
+  background: #00ABE3;
+  color: #fff; }
+
+/* google plus  */
+.googleplusBtn {
+  color: #e64522;
+  background: #fff; }
+
+.googleplusBtn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0d5"; }
+
+.googleplusBtn:hover {
+  background: #e64522;
+  color: #fff; }
+
+/* linkedin  */
+.linkedinBtn {
+  color: #0094BC;
+  background: #fff; }
+
+.linkedinBtn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1"; }
+
+.linkedinBtn:hover {
+  background: #0094BC;
+  color: #fff; }
+
+/* pinterest  */
+.pinterestBtn {
+  color: #cb2027;
+  background: #fff; }
+
+.pinterestBtn:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0d2"; }
+
+.pinterestBtn:hover {
+  background: #cb2027;
+  color: #fff; }
